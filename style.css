@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* fine reset */
@@ -17,10 +18,42 @@
     margin: 25px auto;
 }
 
+/* PRIMO PANNELLO HEADER :logo e menù */
+
 #primo {
-    height: 130px;
-    background-color: #E579E6;
+    height: 160px;
+    
 }
+
+#primo img {
+    height: 80px;
+}
+
+.logo {
+    border-right: 1px solid rgba(161, 159, 159, 0.6);
+    width: fit-content;
+    padding-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: rgb(161, 159, 159);
+    margin-top: 45px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+ a:hover {
+    text-decoration: none;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    background-color: rgb(161, 159, 159);
+    margin-top: 45px;
+    display: inline-block;
+}
+
+/* FINE PRIMO PANNELLO HEADER :logo e menù */
 
 #secondo {
     height: 500px;
