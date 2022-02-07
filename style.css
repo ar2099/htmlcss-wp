@@ -13,8 +13,8 @@
 /* impostazioni relative ai 4 pannelli  */
 
 .blocco {
-    width: 80%;
-    height: 100px;
+    width: 75%;
+    
     margin: 25px auto;
 }
 
@@ -55,10 +55,51 @@ a {
 
 /* FINE PRIMO PANNELLO HEADER :logo e menù */
 
+
+/* INIZIO SECONDO PANNELLO  */
+
 #secondo {
-    height: 500px;
+   
     background-color: #E1D67A;
+    position: relative;
+    height: 600px;   
 }
+
+
+#secondo img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.text-img {
+    color: white;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    
+}
+
+.text-img h2 {
+    font-size: 2em;
+    font-weight: 100;
+}
+
+.text-img p {
+    font-weight: 100;
+}
+
+
+/* FINE SECONDO PANNELLO  */
 
 #terzo {
     height: 650px;
