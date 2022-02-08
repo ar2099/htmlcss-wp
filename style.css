@@ -13,7 +13,7 @@
 
 .blocco {
     width: 80%;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 35px auto;
 }
 
 html {
@@ -97,12 +97,14 @@ li:hover {
 /* terzo pannelo  */
 
 #terzo {
-    height: 650px;
-    background-color: #ABCFE7;
+    height: 850px;
+    margin-top: 50px;
+   
 }
 .interno { 
     float: left;
-    border-bottom: 25px solid #0086FF;
+    border-bottom: 25px solid white;
+    position: relative;
 }
 
 .clearfix::after{
@@ -122,7 +124,7 @@ al terzo  pannello  */
 
 .riga {
     width: 100%;
-    height: 20%;
+    height: 12%;
     
 }
 
@@ -131,7 +133,7 @@ al terzo  pannello  */
     font-weight: bolder;
 }
 
-#leadership-sotto {
+.leadership-sotto {
     color: gray;
     font-size: 1.4em;
 }
@@ -140,25 +142,90 @@ al terzo  pannello  */
 
 .colonna {
     width: 22.5%; 
-    height: 80%;   
+    height: 88%;   
 }
+
+.descrizione {
+    position: absolute;
+    top: 115%;
+}
+
+.top-titolo {
+   position: absolute;
+    top: 105%; 
+    font-size: 2em;
+}
+/* 1° colonna */
+
+#prima-colonna{
+    background-image: url(immagini/img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    width: 100%;
+    display: inline-block;
+    height: 40%;
+}
+
+/* 2° colonna  */
 
 #centrale {
 width: 55%;
-border-right: 25px solid #0086FF;
-border-left: 25px solid #0086FF;
+border-right: 25px solid white;
+border-left: 25px solid white;
+}
+
+#centro-colonna {
+    height: 40%;
+    width: 100%;
+    background-image: url(immagini/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 
+#terza-colonna{
+    background-image: url(immagini/img-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px;
+    width: 100%;
+    display: inline-block;
+    height: 40%;
+}
 
 
 /* quarto pannelo  */
 
 #quarto {
     height: 80px;
-    background-color: #8801FE;
+    /* background-color: #8801FE; */
+    text-align: center;
 }
 
+#quarto p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#quarto span {
+    height: 15px;
+    font-size: 3em;
+    color: red;
+    line-height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-scritta {
+    padding-top: 12px;
+}
 
 
 
