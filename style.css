@@ -18,7 +18,15 @@
 
 #primo {
     height: 130px;
-    background-color: #E579E6;
+    /* background-color: #E579E6; */
+}
+
+#primo img {
+height: 110px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-right: 20px;
+border-right: 2px solid grey;
 }
 
 #secondo {
